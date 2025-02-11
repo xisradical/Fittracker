@@ -1,0 +1,192 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #f4f4f9;
+    background-image: url(https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 30px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #555;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #4e4e4e;
+    outline: none;
+}
+
+button {
+    display: inline-block;
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    background-color: #3f656a;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #172e31;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    font-size: 1rem;
+    text-align: center;
+}
+
+table th,
+table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+table th {
+    background-color: #000000;
+    color: #fff;
+    font-weight: 600;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.itens-scroll,
+.historico-scroll {
+    max-height: 300px;
+    overflow-y: auto;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.historico-compra-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.historico-compra-header:hover {
+    background-color: #e9ecef;
+}
+
+.historico-compra-detalhes {
+    display: none;
+    margin-top: 10px;
+}
+
+.historico-compra-detalhes table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.historico-compra-detalhes th,
+.historico-compra-detalhes td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.total-container {
+    margin-top: 20px;
+    text-align: right;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.total-container span {
+    color: #007bff;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    input[type="date"] {
+        font-size: 0.9rem;
+    }
+
+    button {
+        font-size: 0.9rem;
+    }
+}

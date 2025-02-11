@@ -1,0 +1,59 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Exercícios</title>
+<link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+<label for="dataCompra">Data do treino:</label>
+<input type="date" id="dataCompra" value="">
+
+<!-- Campos para inserir novos itens -->
+<div class="item-inputs">
+<h2>Lista de exercícios</h2>
+<label for="nomeItem">Nome do execício:</label>
+<input type="text" id="nomeItem" placeholder="Ex: Flexão">
+<label for="quantidadeItem">Repetições:</label>
+<input type="number" id="quantidadeItem" placeholder="Ex: 2" min="1">
+<label for="precoUnitarioItem">Numero de séries:</label>
+<input type="number" id="precoUnitarioItem" placeholder="Ex: 5.00" step="0.01" min="0.01">
+</div>
+<button onclick="adicionarItem()">Adicionar Item</button>
+<!-- Scroll lateral para a tabela de itens -->
+<div class="itens-scroll">
+<table id="itensTable">
+<thead>
+<tr>
+<th>Nome do execício</th>
+<th>Repetições</th>
+<th>Numero de séries</th>
+<th>Reps Totais</th>
+<th>Concluído</th>
+<th>Ações</th>
+</tr>
+</thead>
+<tbody>
+<!-- Itens serão adicionados aqui dinamicamente -->
+</tbody>
+</table>
+</div>
+<button onclick="exportarParaExcel()">Exportar para Excel</button>
+<h3>Total Geral de repetições: <span id="totalGeral">0.00</span></h3>
+<button onclick="salvarCompra()">Salvar treino</button>
+<button onclick="limparLista()">Limpar Lista</button>
+<h2>Histórico de treinos</h2>
+<div class="historico-scroll">
+<div id="historicoCompras">
+<!-- Histórico será adicionado aqui dinamicamente -->
+</div>
+</div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<script src="script.js"></script></body>
+</html>
+
