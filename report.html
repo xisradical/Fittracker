@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatórios - Fitness Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="nav-logo">
+                <i class="fas fa-dumbbell"></i>
+                Fitness Tracker
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="report.html" class="active">Relatório</a></li>
+                <li><a href="profile.html">Perfil</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="report-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Exercício</th>
+                        <th>Total de Séries</th>
+                        <th>Total de Repetições</th>
+                    </tr>
+                </thead>
+                <tbody id="exerciseReport"></tbody>
+            </table>
+        </div>
+    </main>
+
+    <script src="reports.js"></script>
+</body>
+</html>
