@@ -1,6 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* Reset básico */
 =======
+=======
+>>>>>>> 1afdd7452433c171d9f6611573708180d37ba531
 :root {
     /* Color Scheme */
     --primary-color: #4CAF50;
@@ -38,7 +41,10 @@
     --bg-card: #ffffff;
 }
 
+<<<<<<< HEAD
 >>>>>>> 1afdd74 (Initial commit: Fitness Tracker project setup)
+=======
+>>>>>>> 1afdd7452433c171d9f6611573708180d37ba531
 * {
     margin: 0;
     padding: 0;
@@ -46,6 +52,7 @@
 }
 
 body {
+<<<<<<< HEAD
 <<<<<<< HEAD
     font-family: 'Poppins', Arial, sans-serif;
     background-color: #f4f4f9;
@@ -56,6 +63,8 @@ body {
     line-height: 1.6;
     padding: 20px;
 =======
+=======
+>>>>>>> 1afdd7452433c171d9f6611573708180d37ba531
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     background-color: var(--background-color);
@@ -64,11 +73,15 @@ body {
     scroll-behavior: smooth;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+<<<<<<< HEAD
 >>>>>>> 1afdd74 (Initial commit: Fitness Tracker project setup)
+=======
+>>>>>>> 1afdd7452433c171d9f6611573708180d37ba531
 }
 
 .container {
     max-width: 1200px;
+<<<<<<< HEAD
 <<<<<<< HEAD
     margin: auto;
     background: rgba(255, 255, 255, 0.95);
@@ -94,6 +107,8 @@ h2 {
     font-size: 2rem;
     margin-top: 30px;
 =======
+=======
+>>>>>>> 1afdd7452433c171d9f6611573708180d37ba531
     margin: 0 auto;
     padding: var(--spacing);
 }
@@ -217,11 +232,15 @@ header h1 {
 
 .form-group {
     margin-bottom: 1rem;
+<<<<<<< HEAD
 >>>>>>> 1afdd74 (Initial commit: Fitness Tracker project setup)
+=======
+>>>>>>> 1afdd7452433c171d9f6611573708180d37ba531
 }
 
 label {
     display: block;
+<<<<<<< HEAD
 <<<<<<< HEAD
     margin-top: 15px;
     font-size: 1rem;
@@ -269,6 +288,8 @@ button:disabled {
     background-color: #ccc;
     cursor: not-allowed;
 =======
+=======
+>>>>>>> 1afdd7452433c171d9f6611573708180d37ba531
     margin-bottom: 0.5rem;
     font-weight: 600;
 }
@@ -319,11 +340,15 @@ input[readonly] {
     -webkit-overflow-scrolling: touch;
     margin: var(--spacing-md) -var(--spacing-md);
     padding: 0 var(--spacing-md);
+<<<<<<< HEAD
 >>>>>>> 1afdd74 (Initial commit: Fitness Tracker project setup)
+=======
+>>>>>>> 1afdd7452433c171d9f6611573708180d37ba531
 }
 
 table {
     width: 100%;
+<<<<<<< HEAD
 <<<<<<< HEAD
     margin-top: 20px;
     border-collapse: collapse;
@@ -385,6 +410,8 @@ table tbody tr:hover {
 
 .historico-compra-detalhes table {
 =======
+=======
+>>>>>>> 1afdd7452433c171d9f6611573708180d37ba531
     border-collapse: separate;
     border-spacing: 0;
     margin-top: var(--spacing-md);
@@ -462,11 +489,15 @@ th {
 }
 
 .daily-report table {
+<<<<<<< HEAD
 >>>>>>> 1afdd74 (Initial commit: Fitness Tracker project setup)
+=======
+>>>>>>> 1afdd7452433c171d9f6611573708180d37ba531
     width: 100%;
     border-collapse: collapse;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 .historico-compra-detalhes th,
 .historico-compra-detalhes td {
@@ -502,6 +533,8 @@ th {
     }
 }
 =======
+=======
+>>>>>>> 1afdd7452433c171d9f6611573708180d37ba531
 .daily-report th,
 .daily-report td {
     padding: 1rem;
@@ -1944,4 +1977,7 @@ th {
         font-size: 0.8em;
     }
 }
+<<<<<<< HEAD
 >>>>>>> 1afdd74 (Initial commit: Fitness Tracker project setup)
+=======
+>>>>>>> 1afdd7452433c171d9f6611573708180d37ba531
